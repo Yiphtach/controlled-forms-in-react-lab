@@ -80,9 +80,22 @@ input {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  align-items: left;
+  justify-content: left;
+  padding: 20px 40px 40px;
+}
+
+.formDiv button {
+  background-color: purple;
+  color: white;       /* Makes the text color white for contrast */
+  border: none;       /* Removes the default button border */
+  padding: 10px 20px; /* Adjusts padding for a better look */
+  cursor: pointer;    /* Changes cursor to pointer on hover */
+  border-radius: 5px; /* Adds rounded corners */
+}
+
+.formDiv button {
+  background-color: darkviolet; /* Changes color on hover for effect */
 }
 
 .bookCardsDiv {
